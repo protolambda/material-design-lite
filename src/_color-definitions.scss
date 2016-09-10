@@ -19,6 +19,41 @@
 // Color order: 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, A100, A200,
 // A400, A700.
 
+
+$palette-custom:
+"195,184,112"//50
+"185,197,171"//100
+"170,187,167"//200
+"162,176,160"//300
+"139,160,165"//400
+"116,150,158"//500
+"93,132,143"//600
+"77,128,142"//700
+"62,107,127"//800
+"56,88,106"//900
+
+"95,96,109"//A100
+"49,77,94"//A200
+"18,61,90"//A400
+"44,50,70";//A700
+
+
+$palette-custom-50: nth($palette-custom, 1);
+$palette-custom-100: nth($palette-custom, 2);
+$palette-custom-200: nth($palette-custom, 3);
+$palette-custom-300: nth($palette-custom, 4);
+$palette-custom-400: nth($palette-custom, 5);
+$palette-custom-500: nth($palette-custom, 6);
+$palette-custom-600: nth($palette-custom, 7);
+$palette-custom-700: nth($palette-custom, 8);
+$palette-custom-800: nth($palette-custom, 9);
+$palette-custom-900: nth($palette-custom, 10);
+$palette-custom-A100: nth($palette-custom, 11);
+$palette-custom-A200: nth($palette-custom, 12);
+$palette-custom-A400: nth($palette-custom, 13);
+$palette-custom-A700: nth($palette-custom, 14);
+
+
 $palette-red:
 "255,235,238"
 "255,205,210"
