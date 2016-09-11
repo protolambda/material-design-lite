@@ -116,7 +116,6 @@ body {
     padding: 16px;
     min-height: 64px;
     display: flex;
-    align-items: center;
     strong {
       font-weight: bold;
     }
@@ -324,7 +323,7 @@ body {
     flex-direction: column;
     p {
       max-width: 700px;
-      margin: 16px auto;
+      margin: 16px;
       font-size: 16px;
       line-height: 28px;
     }
