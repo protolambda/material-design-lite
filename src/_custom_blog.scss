@@ -425,6 +425,11 @@ body {
       align-items: flex-end;
       justify-content: center;
       padding: 0;
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+    }
+    .about-who, .about-blurb {
+       text-align: center;
     }
     .profile-pic-container {
       transform: translate(0px, 75px);
